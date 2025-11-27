@@ -20,7 +20,13 @@
       "Bash(bun --version:*)",
       "Bash(bash:*)",
       "Bash(node test_one_click_exports.js:*)",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(git commit:*)",
+      "Bash(git fetch:*)",
+      "Bash(git branch:*)",
+      "Bash(git pull:*)",
+      "Bash(git merge:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
