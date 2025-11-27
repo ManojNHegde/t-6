@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote:*)",
+      "Bash(git init:*)",
+      "Bash(./scripts/reset_db.sh:*)",
+      "Bash(tree:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(test:*)",
+      "Bash(bash scripts/start.sh:*)",
+      "Bash(curl:*)",
+      "Bash(killall python python.exe uvicorn node)",
+      "Bash(PYTHONDONTWRITEBYTECODE=1 bash:*)",
+      "Bash(cat:*)",
+      "Bash(echo:*)",
+      "Bash(claude:*)",
+      "Bash(.env.tmp)",
+      "Bash(bun --version:*)",
+      "Bash(bash:*)",
+      "Bash(node test_one_click_exports.js:*)",
+      "Bash(gh auth:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
