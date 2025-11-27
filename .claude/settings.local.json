@@ -26,7 +26,19 @@
       "Bash(git branch:*)",
       "Bash(git pull:*)",
       "Bash(git merge:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh:*)",
+      "Bash(git --version)",
+      "SlashCommand(/classify_issue {\"number\": 1, \"title\": \"Login Page\", \"body\": \"Create a Registartion page for my app.It should contain email and password.\"})",
+      "Bash(git checkout:*)",
+      "Bash(git stash:*)",
+      "SlashCommand(/classify_issue {\"number\":1,\"title\":\"Login Page\",\"body\":\"Create a Registartion page for my app.It should contain email and password.\"})",
+      "SlashCommand(/classify_issue {\"number\": 1})",
+      "Bash(openssl rand:*)"
     ],
     "deny": [],
     "ask": []
